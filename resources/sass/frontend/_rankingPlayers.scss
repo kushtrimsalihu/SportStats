@@ -1,0 +1,177 @@
+// ---------- Table Ranking -----------
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+.pcs:after {
+    content: " pcs";
+}
+
+.cur:before {
+    content: "$";
+}
+
+.per:after {
+    content: "%";
+}
+
+// --------------------------
+// * { box-sizing: border-box; }
+// body { padding: .2em 2em; }
+// // Table
+// table {
+//   width: 100%;
+//   th { text-align: left; border-bottom: 1px solid #ccc;}
+//   th, td { padding: .4em; }
+// }
+// fold table 
+.tab-content {
+    table {
+        width: 100%;
+    }
+}
+
+table.fold-table {
+    // width: 100%;
+    th {
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+    }
+    th,
+    td {
+        padding: .4em;
+    }
+    >tbody {
+        // view segment
+        >tr.view {
+            td,
+            th {
+                cursor: pointer;
+            }
+            td:first-child,
+            th:first-child {
+                position: relative;
+                padding-left: 20px;
+                &:before {
+                    position: absolute;
+                    top: 50%;
+                    left: 5px;
+                    width: 9px;
+                    height: 16px;
+                    margin-top: -8px;
+                    font: 16px fontawesome;
+                    color: #999;
+                    content: "\f0d7";
+                    transition: all .3s ease;
+                }
+            }
+            &:nth-child(4n-1) {
+                background: #eee;
+            }
+            &:hover {
+                background: #FFFFFF;
+            }
+            &.open {
+                background: #FFFFFF;
+                color: rgb(0, 0, 0);
+                td:first-child,
+                th:first-child {
+                    &:before {
+                        transform: rotate(-180deg);
+                        color: #333;
+                    }
+                }
+            }
+        }
+        // fold segment
+        >tr.fold {
+            display: none;
+            &.open {
+                display: table-row;
+            }
+        }
+    }
+}
+
+// fold content 
+.fold-content {
+    // width: 100%;
+    padding: .5em;
+    h3 {
+        margin-top: 0;
+    }
+    >table {
+        >tbody {
+            tr:nth-child(even) {
+                background: #eee;
+            }
+        }
+    }
+}
+
+.tab-content {
+    tbody {
+        border-bottom: 1px solid #CCCCCC;
+    }
+    a {
+        text-decoration: none;
+        color: black!important;
+    }
+    a:hover {
+        color: #1BBF7A!important;
+    }
+}
+
+.yellow-card {
+    color: rgb(243, 243, 74);
+    // border: 1px solid black;
+}
+
+// .fold-table {
+// border: 2px solid #ccc;
+// }
+.table-head-color {
+    background-color: #eaebe8;
+}
+
+@media (max-width: 545px) {
+    .tabs2 {
+        font-size: 8px!important;
+    }
+}
+
+// --------------- Table ----------
+.table-wrap {
+    @include media-breakpoint-down(xl) {
+        overflow-x: scroll;
+    }
+}
+
+.table-rank {
+    // min-width: 1000px !important;
+    // width: 100%;
+    background: $white;
+    thead {
+        &.thead-primary {
+            background: #ffffff;
+            border-top: 1px solid #1BBF7A;
+        }
+        th {
+            border: none;
+            padding: 20px 30px;
+            font-size: 14px;
+            color: $black;
+        }
+        // tr {}
+    }
+    tbody {
+        tr {
+            margin-bottom: 10px;
+        }
+        th,
+        td {
+            border: none;
+            // background: $white;
+            padding: 20px 30px;
+            border-bottom: 3px solid #f8f9fd;
+            font-size: 14px;
+        }
+    }
+}

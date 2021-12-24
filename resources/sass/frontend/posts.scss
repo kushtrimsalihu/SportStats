@@ -1,0 +1,74 @@
+.card-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+  .card-container:hover .card {
+    cursor: pointer;
+  }
+  .card-container .card {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    float: left;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+    background: #FFF;
+    -webkit-transition: .3s all ease;
+    transition: .15s all ease;
+  }
+  .card-container .card:hover {
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.15);
+    transform: scale(1.025);
+    // opacity: 1;
+    transition: .35s all ease;
+  }
+  .card-container .card img {
+    max-width: 100%;
+    width: 402px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+  }
+//   .card-container .card .content {
+//     // padding: 15px 20px;
+//   }
+  .card-container .card h3 {
+    font: 4.0rem/4.8rem ;
+    padding: 0 0;
+    margin: 0 0 10px;
+    letter-spacing: -.075rem
+  }
+  .card-container .card p {
+    // position: static;
+    display: flex;
+    color: #888;
+    padding: 0;
+    margin: 0;
+    font: 400 1.2rem/1.8rem;
+  }
+a {
+   color: initial;
+   &:hover {
+   text-decoration: none;
+   color: initial;
+   }
+}
+
+// @media only screen and (min-width:750px) {
+	/* Layout */
+// 	.card-container {
+// 		grid-template-columns: 1fr 3fr 1fr;
+// 		grid-gap: 1.5em;
+// 	}
+
+
+ //}
+
+// .posts-card {
+//
+//
+//     .text-muted i {
+//       margin: 0 10px;
+//     }
+
+//  }

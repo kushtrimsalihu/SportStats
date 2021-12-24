@@ -1,0 +1,88 @@
+.profile-body {
+  background-color: #fbf9f6;
+}
+
+.wrapper-profile {
+  padding: 50px 70px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin: 10px auto;
+  max-width: 900px;
+}
+
+.wrapper-profile h4 {
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.wrapper-profile .img-profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper-profile #img-section p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.wrapper-profile #img-section b {
+  font-size: 16px;
+}
+
+.wrapper-profile label {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000c07;
+  padding-left: 3px;
+}
+
+.wrapper-profile .form-control {
+  border-radius: 10px;
+}
+
+.wrapper-profile input[placeholder] {
+  font-weight: 500;
+}
+
+.wrapper-profile .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1.5px solid #20d489;
+}
+
+.wrapper-profile .button-profile {
+  background-color: #fff;
+  color: #0dcc7c;
+  border-color: #009c5b;
+}
+
+.wrapper-profile .button-profile:hover {
+  background-color: #afebd2;
+  color: #018f60;
+  border-color: #009c5b;
+}
+
+.wrapper-profile .btn-profile {
+  color: white;
+  background-color: #20d489;
+  border-color: #20d489;
+}
+
+.wrapper-profile .btn-profile:hover {
+  background-color: #00b167;
+  color: #fff;
+  border-color: #20d489;
+}
+
+@media (max-width: 576px) {
+  .wrapper-profile {
+    padding: 25px 20px;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

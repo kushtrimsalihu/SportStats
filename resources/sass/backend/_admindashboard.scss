@@ -1,0 +1,101 @@
+body {
+    background-color: #F8F1E7!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 450px) {
+    .dropdown-menu {
+        min-width: 7rem;
+        font-size: 0.7rem;
+    }
+}
+
+.admin-cards {
+    border-radius: 25px;
+}
+
+.admin-dashboard-buttons {
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px 12px 20px;
+    margin-bottom: 10px;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.admin-buttons-type-1 {
+    background-color: #1bbf7a;
+    color: white;
+}
+
+.admin-buttons-type-1:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.admin-card-type-2 {
+    background-color: #1bbf7a;
+    color: white;
+}
+
+.admin-buttons-type-2 {
+    background-color: white;
+    color: #1bbf7a;
+}
+
+.admin-buttons-type-2:hover {
+    text-decoration: none;
+    color: #1bbf7a;
+}
+
+.content-admin-dashboard {
+    background-color: #f9f2e7;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.admin-dashboard-card-image {
+    height: 30vh;
+}
+
+.admin-dashboard-card-title {
+    font-family: Paytone One;
+    font-weight: bold;
+}
+
+.admin-dashboard-card-text {
+    color: #a1a5c0;
+}
+
+.admin-dashboard-card-text-1 {
+    color: #dedede;
+}
+
+@media only screen and (max-width: 1200px) {
+    .admin-dashboard-card-image {
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .admin-dashboard-card-text-center {
+        text-align: center;
+    }
+    #admin-sidebar-div {
+        margin-left: -250px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .admin-cards {
+        width: 87.5vw;
+    }
+    #admin-sidebar-div {
+        margin-left: -250px;
+    }
+}

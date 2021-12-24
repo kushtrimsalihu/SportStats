@@ -1,0 +1,138 @@
+.display_nav {
+    height: 250px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link .bg_color_tab:active {
+    background-color: #1BBF7A !important;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.nav-pills .nav-link{
+  border-radius: 25px !important;
+   border: 1px solid #1BBF7A !important;
+   transition: .7s ease-out;
+}.borders{
+  border: 1px solid #1BBF7A !important;
+      padding: 28px;
+      border-radius: 15px;
+}
+.nav-pills .nav-link, .nav-pills .show > .nav-link .bg_color_tab {
+  margin-bottom: 18px;
+}
+a.nav-link.bg_color_tab:active{
+    background-color: #8a868614 !important;
+}
+
+  a.bg_color_tab {
+    color: rgb(138, 134, 134) !important;
+    font-weight: bold;
+  }
+  .nav_tabs {
+    padding: 20px;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  .description_card{
+      font-weight: unset;
+  }
+  .nav_tabs a{
+    text-decoration: none;
+    color: #777;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    transition-duration: 0.6s;
+  }
+    
+.navs{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (min-width: 1200px){
+  .nav_tabs{
+    padding:60px;
+  }
+  .borders{
+    padding: 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .display_nav {
+    height: unset;
+  }
+
+}
+
+@media (max-width: 992px) {
+    .display_nav {
+        height: unset;
+      }
+      .d-flex.align-items-center.text-center.display_nav {
+        display: inline-block !important;
+      }
+      .nav_tabs{
+        display: flex;
+        justify-content: center;
+        margin-bottom:unset;
+      }
+}
+@media (max-width: 768px) {
+    .d-flex.align-items-center.text-center.display_nav {
+        display: inline-block !important;
+      }
+      .nav_tabs {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+// For about page users
+.confused {
+  background-color: #1bbf7a;
+  color: white;
+  padding-bottom: 80px;
+}
+.confused_features {
+  text-align: right;
+  color: white;
+}
+
+.confused_trial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 / 4%) 0px 5px;
+  color: black;
+  margin-left: 28px;
+  padding: 7px 42px;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  &:hover{
+    background: unset;
+    border: 1px solid black;
+    transition: .5s ease-out;
+}
+}
+.sign_up_about {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trial_text {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.confused_trial a{
+text-decoration: none;
+color: #000;
+}
+// end

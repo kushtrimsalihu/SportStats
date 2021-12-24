@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+.player-info {
+    display: flex;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 9px;
+    min-height: 35vh;
+    // font-weight: bold;
+    font-size: 1rem;
+    justify-content: space-around;
+    li {
+        // padding-left: 40px;
+        font-size: 1rem;
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center;
+        list-style: none;
+    }
+    .team_name {
+        text-align: center;
+    }
+}
+
+.player-info-rank {
+    display: flex;
+    // border: 1px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    height: 35vh;
+    padding-top: 21px;
+    // font-weight: bold;
+    font-size: 1rem;
+    // justify-content: space-between;
+    .rank-font {
+        // padding-top: 36px;
+        // margin-top: 54px;
+        font-size: 160px;
+        color: #CCCCCC;
+        text-align: center;
+    }
+}
+
+.player-info-rank-sm {
+    display: flex;
+    // border: 1px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    height: 10vh;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1rem;
+    .ranking {
+        display: inline-block;
+        margin-top: 13px;
+    }
+}
+
+.player-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ul {
+        margin-bottom: -0.3rem;
+    }
+}
+
+.player-team-info {
+    display: flex;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    height: 35vh;
+    font-size: 1rem;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+
+.player-team-info-sm {
+    display: flex;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    height: 10vh;
+    // font-weight: bold;
+    font-size: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    .team-img-sm {
+        padding-bottom: 3px;
+        width: 7vh;
+    }
+}
+
+.rank-font-sm {
+    // padding-top: 36px;
+    // font-size: 30px;
+    // border: 1px solid black;
+    color: #b3b1b1;
+    // text-align: center;
+    margin-top: 4px;
+}
+
+// @media (max-width:1100px) {
+//     .player-data {
+//         padding-left: 30px;
+//         padding-top: 22px;
+//     }
+// }
+.player-img {
+    img {
+        height: 32vh;
+        display: block;
+        margin: auto;
+    }
+}
+
+.team-card {
+    .player-img {
+        img {
+            height: 20vh;
+            margin: 10px;
+        }
+    }
+}
+
+.team-img {
+    max-width: 45%;
+    height: auto;
+    min-height: 30%;
+}
+
+.flex-column-team {
+    flex-direction: column;
+}
+
+.shad {
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+.table-stats {
+    // border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -0.0rem;
+    // font-size: 0.5rem;
+    .red-card {
+        color: red;
+    }
+    .yellow-card {
+        color: rgb(228, 228, 24);
+    }
+    // font-size: 0.8rem;
+}
+
+.table-title-stats {
+    // border-radius: 15px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.width-ranking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86%;
+}

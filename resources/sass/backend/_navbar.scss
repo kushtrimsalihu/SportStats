@@ -1,0 +1,23 @@
+#admin-dashboard-navbar-color {
+    // background: rgb(27, 191, 122);
+    height: 68px;
+}
+
+.btnnav.btnnav-accent {
+    color: #20d489!important;
+    border-color: #f9f2e7!important;
+    background-color: #f9f2e7!important;
+}
+
+.btnnav.btnnav-accent:hover {
+    background-color: #f0e9dd!important;
+}
+
+.btnnav.btnnav-icon2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: calc(1.5em + 1.5rem + 2px);
+    width: calc(1.5em + 1.5rem + 2px);
+}
