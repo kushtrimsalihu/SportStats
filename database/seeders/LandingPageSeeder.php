@@ -44,8 +44,7 @@ class LandingPageSeeder extends Seeder
             'tab2_description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet voluptates dicta perspiciatis laborum vitae quia, ea consequatur quisquam consectetur, nisi qui minima dolores quod veritatis molestiae at delectus neque?',
             'tab3_description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet voluptates dicta perspiciatis laborum vitae quia, ea consequatur quisquam consectetur, nisi qui minima dolores quod veritatis molestiae at delectus neque?',
             'tab4_description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet voluptates dicta perspiciatis laborum vitae quia, ea consequatur quisquam consectetur, nisi qui minima dolores quod veritatis molestiae at delectus neque?'
-        
-        ]);    
+                    ]);    
     }
 
 }
